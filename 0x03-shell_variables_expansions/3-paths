@@ -1,2 +1,2 @@
 #!/bin/bash
-printf ("1: {4}")
+path=$(echo "$PATH" | tr ':' '\n')
